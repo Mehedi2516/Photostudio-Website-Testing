@@ -1,0 +1,807 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project description,Project url,Priority,Resolution,Assignee,Reporter,Creator,Created,Updated,Last Viewed,Resolved,Affects Version/s,Fix Version/s,Component/s,Due Date,Votes,Labels,Description,Environment,Watchers,Log Work,Original Estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Custom field ((backup) Browser/s),Custom field ((backup) Exists in the current implementation?),Custom field ((backup) External issue ID - old),Custom field ((backup) Integrator),Custom field ((backup) Issue Occurred On),Custom field ((backup) Issue Status Comment),Custom field ((backup) Platform),Custom field ((backup) Root of the problem),Custom field ((backup) Test Type),Custom field ((backup) Test case priority),Custom field ((backup) Type of Issue),Custom field ((backup) Work Type),"Custom field ((backup, del) Test tasks)","Custom field ((tmp, del) Build/s)","Custom field ((tmp, del?) TestCase Link)",Custom field (Account),Custom field (Actual Result),Custom field (Affected Test Cases),Custom field (Affects Build/s),Custom field (Asana link),Custom field (BT Jira ID),Custom field (BT Project),Custom field (Basecamp Link),Custom field (Billable Category),Custom field (Browser),Custom field (Browser / Environment),Custom field (Browser Version),Custom field (Build/s),Custom field (Business Unit),Custom field (CQ ID),Custom field (CS Project Coordinator),Custom field (Case Study necessity postpone date),Custom field (Client Device),Custom field (Client Device Version),Custom field (Cloud Version),Custom field (Core issue),Custom field (Created By),Custom field (Development),Custom field (End Date),Custom field (Epic Link),Custom field (Epic/Theme),Custom field (Error Type),Custom field (Expected Result),Custom field (Flagged),Custom field (Found by),Custom field (Functionality Changes?),Custom field (Handled By (SGW Tester)),Custom field (Hardware Version),Custom field (Impact),Custom field (Impacted Areas),Custom field (Importance),Custom field (Iteration),Custom field (Level),Custom field (New Original Estimate),Custom field (Next Step),Custom field (Number of candidates),Custom field (Occurrence),Custom field (Original story points),Custom field (Parent Link),Custom field (Partner Contact),Custom field (Payment Status),Custom field (Planned Efforts (FTE)),Custom field (Priority Level),Custom field (Proxy Required),Custom field (RFX Coordinator),Custom field (Rank),Custom field (Rank (Obsolete)),Custom field (Regional Coordinator),Custom field (Related Cases),Custom field (Reported Version),Custom field (Request Info From),Custom field (Revised),Custom field (Router),Custom field (SF Case No),Custom field (SGW Jira ID),Custom field (Severity/Importance),Custom field (Share with),Custom field (Solution),Sprint,Custom field (Start Date),Custom field (Supervisor),Custom field (TVS ID),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Team Role),Custom field (Test Type),Custom field (TestLink case),Custom field (Time Category),Custom field (To Attention Of),Custom field (Type of engagement),Custom field (URL),Custom field (Users),Custom field (Version To Fix),Custom field (WSJF),Custom field (Wiki Link),Custom field (Wires Link),Custom field (ZendeskID),Custom field (Обеспечение оборудованием),Comment,Comment
+"Book Information: ""Save this information for next time"" checkbox is disabled in the Contact Information form",QATC-921359,3822104,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,05/May/25 8:12 AM,05/May/25 8:14 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+
+ # Navigate to the Sessions module
+
+ # Click Book Now and proceed through the booking steps
+
+ # On the Contact Information form in the Session Information page, locate the ""Save this information for next time"" checkbox
+
+*Actual Result:* ""Save this information for next time"" checkbox is disabled in the Contact Information form - see here [^Screenshot 2025-05-05 110310.png]
+
+*Expected result:* According to the documentation, the checkbox should be enabled by ** default, allowing the user to select it. When selected, the user's contact information should be saved for future bookings - see here [^Screenshot 2025-05-05 110540.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"05/May/25 8:10 AM;m13.hasan;Screenshot 2025-05-05 110310.png;https://jira.a1qa.com/secure/attachment/2640408/Screenshot+2025-05-05+110310.png","05/May/25 8:10 AM;m13.hasan;Screenshot 2025-05-05 110540.png;https://jira.a1qa.com/secure/attachment/2640407/Screenshot+2025-05-05+110540.png","05/May/25 8:14 AM;m13.hasan;Video 2025-05-05 11.13.35.mp4;https://jira.a1qa.com/secure/attachment/2640409/Video+2025-05-05+11.13.35.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1u9k:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,"05/May/25 8:14 AM;m13.hasan;*Attachment correction:*
+
+*Actual result: [^Video 2025-05-05 11.13.35.mp4]*;;;",
+"Book Information: ""Keep me up to date on news"" checkbox is checked by default in the Contact Information form",QATC-921358,3822103,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,05/May/25 8:04 AM,05/May/25 8:04 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:* 
+ # Open the application: [https://photostudio.demohoster.com/]
+
+ # Navigate to the Sessions module
+
+ # Click Book Now and proceed through the booking process
+
+ # On the Contact Information form in the Book Information page, locate the ""Keep me up to date on news"" checkbox - see here [^Screenshot 2025-05-05 110310.png]
+
+*Actual result:* ""Keep me up to date on news"" checkbox is checked by default in the Contact Information 
+
+*Expected result:* As per the documentation, the ""Keep me up to date on news"" checkbox should be unchecked by default on the Contact Information form - see here [^Screenshot 2025-05-05 105530.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"05/May/25 8:01 AM;m13.hasan;Screenshot 2025-05-05 105530.png;https://jira.a1qa.com/secure/attachment/2640406/Screenshot+2025-05-05+105530.png","05/May/25 8:03 AM;m13.hasan;Screenshot 2025-05-05 110310.png;https://jira.a1qa.com/secure/attachment/2640405/Screenshot+2025-05-05+110310.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1u9c:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Book Information: Mini Outdoor and Standard session photos appear in each other’s positions in the session information section,QATC-921357,3822102,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,05/May/25 7:48 AM,05/May/25 7:48 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+
+ # Navigate to the Sessions module
+
+ # Click Book Now for both Mini Outdoor and Standard sessions separately
+
+ # Navigate to the Booking Information page
+
+ # Observe the photo displayed under Session Information -see here [^Screenshot 2025-05-05 103751.png] &  [^Screenshot 2025-05-05 103635.png]
+
+*Actual result:* Mini Outdoor and Standard session photos appear in each other’s positions in the session information section
+
+*Expected result:* Each session should display its correct photo in the ** Session Information section, as specified in the documentation - see here [^Screenshot 2025-05-05 104725.png] & [^Screenshot 2025-05-05 104702.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"05/May/25 7:45 AM;m13.hasan;Screenshot 2025-05-05 103635.png;https://jira.a1qa.com/secure/attachment/2640404/Screenshot+2025-05-05+103635.png","05/May/25 7:45 AM;m13.hasan;Screenshot 2025-05-05 103751.png;https://jira.a1qa.com/secure/attachment/2640403/Screenshot+2025-05-05+103751.png","05/May/25 7:48 AM;m13.hasan;Screenshot 2025-05-05 104702.png;https://jira.a1qa.com/secure/attachment/2640402/Screenshot+2025-05-05+104702.png","05/May/25 7:48 AM;m13.hasan;Screenshot 2025-05-05 104725.png;https://jira.a1qa.com/secure/attachment/2640401/Screenshot+2025-05-05+104725.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1u94:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Standard Session: The total session cost is calculated using $250 as the base fee for the Standard Session instead of $650,QATC-921356,3822101,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,05/May/25 7:35 AM,05/May/25 7:35 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+
+ # Navigate to the Sessions module
+
+ # Click the Book Now button for the Standard Session
+
+ # Proceed with booking by selecting options and clicking Book button
+
+ # Observe the calculated Total Amount in the Booking Information page
+
+*Actual result:* The total session cost is calculated using $250 as the base fee for the Standard Session instead of $650 - see here [^Video 2025-05-05 10.32.49.mp4]
+
+*Expected result:* The total session cost should be calculated based on the correct base session fee of $650 for the Standard Session, as specified in the documentation - see here [^Screenshot 2025-05-05 083409.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"05/May/25 7:32 AM;m13.hasan;Screenshot 2025-05-05 083409.png;https://jira.a1qa.com/secure/attachment/2640400/Screenshot+2025-05-05+083409.png","05/May/25 7:33 AM;m13.hasan;Video 2025-05-05 10.32.49.mp4;https://jira.a1qa.com/secure/attachment/2640399/Video+2025-05-05+10.32.49.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1u8w:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Standard Session: The Additional Subjects dropdown displays only 7 options (1 to 7) instead of 10,QATC-921355,3822100,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,05/May/25 7:22 AM,05/May/25 7:22 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+
+ # Navigate to the Sessions module
+
+ # Click the Book Now button for the Standard Session
+
+ # Open the Additional Subjects dropdown
+
+ # Count the number of available options - see here [^Screenshot 2025-05-05 102140.png]
+
+*Actual Result:* The Additional Subjects dropdown displays only 7 options (1 to 7) instead of 10 
+
+*Expected Result:* The Additional Subjects dropdown should display 10 options, as specified in the documentation","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"05/May/25 7:22 AM;m13.hasan;Screenshot 2025-05-05 102140.png;https://jira.a1qa.com/secure/attachment/2640398/Screenshot+2025-05-05+102140.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1u8o:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Book Session: Standard Session fee displayed as $250 instead of $650 as specified,QATC-921342,3822086,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,05/May/25 5:34 AM,05/May/25 5:34 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+
+ # Navigate to the Sessions module
+
+ # Click on the Book Now button and enter the Standard Session
+
+ # Pay attention to the Book Session page, where the Booking Amount is shown - see here [^Screenshot 2025-05-05 081827.png]
+
+*Actual result:* Standard Session fee displayed as $250 instead of $650 as specified
+
+*Expected result:* The session fee for the Standard Session on the Book Session page should be displayed as $650, as specified in the documentation - see here [^Screenshot 2025-05-05 083409.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"05/May/25 5:33 AM;m13.hasan;Screenshot 2025-05-05 081827.png;https://jira.a1qa.com/secure/attachment/2640372/Screenshot+2025-05-05+081827.png","05/May/25 5:34 AM;m13.hasan;Screenshot 2025-05-05 083409.png;https://jira.a1qa.com/secure/attachment/2640371/Screenshot+2025-05-05+083409.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1u5k:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Book Session: Additional Subjects Add $50 per Person Instead of $55 as Specified while booking the Mini Studio session,QATC-921337,3822081,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,05/May/25 5:14 AM,05/May/25 5:14 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps :*
+ # Open the application: [https://photostudio.demohoster.com/]
+
+ # Navigate to the Sessions module
+
+ # Click on the Book Now button and enter the Mini Studio Session
+
+ # Try to select any value from the Additional Subjects dropdown
+
+ # Click the Book button and navigate to the Book Information page
+
+ # Pay attention to the session information where the Total Calculated Amount is shown - see here  [^Video 2025-05-05 08.12.39.mp4]
+
+*Actual result: Book Session:* Additional Subjects Add $50 per Person Instead of $55 as specified while booking the Mini Studio session
+
+*Expected result:* Each additional subject should add $55 to the session fee as specified. The total amount should be calculated accordingly - see here [^Screenshot 2025-05-05 081212.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"05/May/25 5:13 AM;m13.hasan;Screenshot 2025-05-05 081212.png;https://jira.a1qa.com/secure/attachment/2640362/Screenshot+2025-05-05+081212.png","05/May/25 5:13 AM;m13.hasan;Video 2025-05-05 08.12.39.mp4;https://jira.a1qa.com/secure/attachment/2640363/Video+2025-05-05+08.12.39.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1u4g:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Mini Studio Session: ""Option 6"" Appears Disabled in Additional Subjects Dropdown",QATC-921332,3822076,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,05/May/25 4:43 AM,05/May/25 4:43 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Sessions module
+ # Click on the Book Now button and enter the Mini Studio Session
+ # Try to select option 6 from the Additional Subjects dropdown
+ # Pay attention to the response - see here [^Video 2025-05-05 07.35.42.mp4]
+
+*Actual result:* ""Option 6"" Appears Disabled in the Additional Subjects Dropdown
+
+Expected result: 
+
+*Expected Result:* All options, including ""Option 6"" should be selectable in the dropdown list","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"05/May/25 4:43 AM;m13.hasan;Video 2025-05-05 07.35.42.mp4;https://jira.a1qa.com/secure/attachment/2640354/Video+2025-05-05+07.35.42.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1u3c:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Session Module: The search bar appears with an altered shape after navigating the Mini Studio, Mini Outdoor, and Standard session pages",QATC-921261,3821998,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 11:52 PM,04/May/25 11:52 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Sessions module
+ # Click on the Book Now button and enter the Mini Studio, Mini Outdoor, and Standard Session
+ # Notice the UI change in the search bar in the top-right corner - see here [^Video 2025-05-05 02.49.41.mp4]
+
+*Actual result:* The search bar appears with an altered shape after navigating the Mini Studio, Mini Outdoor, and Standard sessions pages
+
+*Expected result:* The search bar UI should remain visually consistent across all pages, including the Contact page","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"04/May/25 11:51 PM;m13.hasan;Video 2025-05-05 02.49.41.mp4;https://jira.a1qa.com/secure/attachment/2640225/Video+2025-05-05+02.49.41.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1tm8:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Session Module: ""Book Now"" Is a Hyperlink Instead of a Button in the Mini Studio, Mini Outdoor, and Standard Session",QATC-921257,3821994,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 11:39 PM,04/May/25 11:39 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Sessions module
+ # Using Dev Tool, inspect the ""Book Now"" option for all three session types - see here [^Video 2025-05-05 02.05.02.mp4]
+
+*Actual result:* ""Book Now"" Is a Hyperlink Instead of a Button in the Mini Studio, Mini Outdoor, and Standard Session - see here [^Screenshot 2025-05-05 020343.png]
+
+*Expected result:* ""Book Now"" should be displayed as a button, as specified in the documentation - see here [^Screenshot 2025-05-05 015819.png], [^Screenshot 2025-05-05 015914.png] & [^Screenshot 2025-05-05 015954.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"04/May/25 11:38 PM;m13.hasan;Screenshot 2025-05-05 015819.png;https://jira.a1qa.com/secure/attachment/2640215/Screenshot+2025-05-05+015819.png","04/May/25 11:38 PM;m13.hasan;Screenshot 2025-05-05 015914.png;https://jira.a1qa.com/secure/attachment/2640214/Screenshot+2025-05-05+015914.png","04/May/25 11:38 PM;m13.hasan;Screenshot 2025-05-05 015954.png;https://jira.a1qa.com/secure/attachment/2640213/Screenshot+2025-05-05+015954.png","04/May/25 11:38 PM;m13.hasan;Screenshot 2025-05-05 020343.png;https://jira.a1qa.com/secure/attachment/2640216/Screenshot+2025-05-05+020343.png","04/May/25 11:37 PM;m13.hasan;Video 2025-05-05 02.05.02.mp4;https://jira.a1qa.com/secure/attachment/2640217/Video+2025-05-05+02.05.02.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1tlc:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Session module: The footer section is disappearing while entering any of the session pages,QATC-921247,3821983,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 10:56 PM,04/May/25 10:56 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:* 
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Session module
+ # Click on the Book Now button and enter the Mini Studio, Mini Outdoor, and Standard Session
+ # Observe that the footer is no longer visible or accessible - see here [^Video 2025-05-05 01.52.42.mp4]
+
+*Actual result:* The footer section is disappearing while entering any of the session pages
+
+*Expected result:* Entering the Session pages should not affect the visibility of other sections, including the footer","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"04/May/25 10:54 PM;m13.hasan;Video 2025-05-05 01.52.42.mp4;https://jira.a1qa.com/secure/attachment/2640194/Video+2025-05-05+01.52.42.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1tiw:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Gallery: Some random photos are missing the expand button to see the full-size view,QATC-921243,3821979,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 10:31 PM,04/May/25 10:31 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the session module and enter any of the galleries
+ # Click on an image and try to expand it into full-size view
+ # Observe whether there is an expand button to see the expanded view
+
+**
+
+*Actual result:* Some random photos are missing the expand button to see the full-size view - see here [^Video 2025-05-05 01.28.27.mp4]
+
+**
+
+*Expected Result:* Every image in the gallery should have a ** consistent expand button, allowing users to enlarge and preview them properly","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"04/May/25 10:29 PM;m13.hasan;Video 2025-05-05 01.28.27.mp4;https://jira.a1qa.com/secure/attachment/2640187/Video+2025-05-05+01.28.27.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1ti0:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Gallery: No dedicated close button is available to close the full-size view of an image ,QATC-921242,3821978,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 10:17 PM,04/May/25 10:17 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the session module and enter any of the galleries
+ # Click on an image and expand it into full-size view
+ # Observe whether there is a close button to exit the expanded view
+
+*Actual result:* No dedicated close button is available to close the full-size view of an image - see here [^Video 2025-05-05 01.13.43.mp4]
+
+*Expected result:*  There should be a dedicated close button to allow users to exit full-screen mode intuitively 
+
+ ","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"04/May/25 10:16 PM;m13.hasan;Video 2025-05-05 01.13.43.mp4;https://jira.a1qa.com/secure/attachment/2640186/Video+2025-05-05+01.13.43.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1ths:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Contact page: The search bar appears with altered shape after navigating this page ,QATC-921234,3821970,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 9:44 PM,04/May/25 9:44 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Observe the search bar styling on the Home page.
+
+ # Navigate to Connect > Contact page.
+
+ # Notice the UI change in the search bar in the top-right corner - see here [^image-2025-05-05-00-42-10-419.png]
+
+*Actual result:* The search bar appears with an altered shape after navigating the contact page - see here [^Video 2025-05-05 00.43.08.mp4]
+
+*Expected result:* The search bar UI should remain visually consistent across all pages, including the Contact page","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"04/May/25 9:42 PM;m13.hasan;image-2025-05-05-00-42-10-419.png;https://jira.a1qa.com/secure/attachment/2640175/image-2025-05-05-00-42-10-419.png","04/May/25 9:44 PM;m13.hasan;Video 2025-05-05 00.43.08.mp4;https://jira.a1qa.com/secure/attachment/2640174/Video+2025-05-05+00.43.08.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1tg0:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Contact Form: Custom required messages are not shown for obligatory fields when left blank; instead, ""Please fill in this field."" is displayed",QATC-921225,3821961,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 9:08 PM,04/May/25 9:08 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Contact Form
+ # Leave the following fields empty and try to submit the form
+
+*Actual result:* Contact Form: Custom required messages are not shown for obligatory fields when left blank; instead, ""Please fill in this field."" is displayed - see here [^Video 2025-05-05 00.04.38.mp4]
+
+*Expected result:* As per the documentation, the following custom error messages should be displayed:
+ * *Firstname:* ""Firstname is required.""
+
+ * *Lastname:* ""Lastname is required.""
+
+ * *Email:* ""Valid email is required.""
+
+ * *Subject:* ""Subject is required.""
+
+ * *Message:* ""Please leave me a message.""
+
+See here - [^Screenshot 2025-05-04 234524.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"04/May/25 9:01 PM;m13.hasan;Screenshot 2025-05-04 234524.png;https://jira.a1qa.com/secure/attachment/2640163/Screenshot+2025-05-04+234524.png","04/May/25 9:07 PM;m13.hasan;Video 2025-05-05 00.04.38.mp4;https://jira.a1qa.com/secure/attachment/2640162/Video+2025-05-05+00.04.38.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1te0:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Contact Form: Firstname, Lastname, Subject, and Message fields allow special characters, though documentation specifies alpha-only input",QATC-921222,3821958,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 8:40 PM,04/May/25 8:40 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Contact Form
+
+ # In the form, enter special characters (e.g., {{{}@{}}}, {{{}#{}}}, {{{}${}}}, etc.) in Firstname, Lastname, Subject, and Message fields:
+
+ # Pay attention to the input fields
+
+*Actual result:* Firstname, Lastname, Subject, and Message fields allow special characters, though documentation specifies alpha-only input - see here [^Video 2025-05-04 23.05.55.mp4]
+
+*Expected result:* These fields should only accept alphabetical characters (alpha type) and reject special characters as per the documentation - see here [^Screenshot 2025-05-04 230157.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"04/May/25 8:38 PM;m13.hasan;Screenshot 2025-05-04 230157.png;https://jira.a1qa.com/secure/attachment/2640156/Screenshot+2025-05-04+230157.png","04/May/25 8:39 PM;m13.hasan;Video 2025-05-04 23.05.55.mp4;https://jira.a1qa.com/secure/attachment/2640155/Video+2025-05-04+23.05.55.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1tdc:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Contact Form: “Last Name” field accepts only 8 characters instead of 48 as required,QATC-921158,3821887,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 11:34 AM,04/May/25 11:34 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Contact Form
+
+ # Locate the Last Name field
+
+ # Try entering more than 8 characters 
+
+*Actual result:* “Last Name” field accepts only 8 characters instead of 48 as required - see here [^Video 2025-05-04 14.31.45.mp4]
+
+*Expected result:* The Message field should allow up to 48 characters as defined in the documentation - see here [^Screenshot 2025-05-04 142704.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"04/May/25 11:33 AM;m13.hasan;Screenshot 2025-05-04 142704.png;https://jira.a1qa.com/secure/attachment/2640064/Screenshot+2025-05-04+142704.png","04/May/25 11:33 AM;m13.hasan;Video 2025-05-04 14.31.45.mp4;https://jira.a1qa.com/secure/attachment/2640063/Video+2025-05-04+14.31.45.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1sxk:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Contact Form: “Message” field accepts only 300 characters instead of 2048 as required,QATC-921153,3821882,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,04/May/25 10:45 AM,04/May/25 10:45 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Contact Form
+
+ # Locate the Message field
+
+ # Try entering more than 300 characters
+
+*Actual result:* “Message” field accepts only 300 characters instead of 2048 as required - see here [^Video 2025-05-04 13.42.50.mp4]
+
+*Expected result:* The Message field should allow up to 2048 characters as defined in the documentation - see here [^Requirement_30.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"04/May/25 10:44 AM;m13.hasan;Requirement_30.png;https://jira.a1qa.com/secure/attachment/2640055/Requirement_30.png","04/May/25 10:44 AM;m13.hasan;Video 2025-05-04 13.42.50.mp4;https://jira.a1qa.com/secure/attachment/2640056/Video+2025-05-04+13.42.50.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1swg:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Contact Form: 'First Name' field allows empty submission without showing the required error message,QATC-921128,3821855,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 11:25 PM,03/May/25 11:25 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Contact
+ # Leave the First Name field empty
+
+ # Attempt to submit the form
+ # Observe the response 
+
+*Actual result:* 'First Name' field allows empty submission without showing required error message despite being specified in the documentation - see here [^Video 2025-05-03 17.20.25.mp4]
+
+*Expected result:* If the First Name field is left empty, an error message ""First name is required"" should be shown, preventing submission - see here [^Requirement_29.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 11:14 PM;m13.hasan;Requirement_29.png;https://jira.a1qa.com/secure/attachment/2640014/Requirement_29.png","03/May/25 11:14 PM;m13.hasan;Video 2025-05-03 17.20.25.mp4;https://jira.a1qa.com/secure/attachment/2640013/Video+2025-05-03+17.20.25.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1sqg:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Connect Tab: Clicking the Contact Menu causes the footer to disappear,QATC-921053,3821770,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 1:49 PM,03/May/25 1:49 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:* 
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Connect tab
+ # Click on the Contact menu option from the dropdown
+ # Observe that the footer is no longer visible or accessible - see here [^Video 2025-05-03 16.46.58.mp4]
+
+*Actual result:* Clicking the Contact Menu causes the footer to disappear
+
+*Expected result:* Clicking the Contact menu should not affect the visibility of other sections, including the footer","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 1:47 PM;m13.hasan;Video 2025-05-03 16.46.58.mp4;https://jira.a1qa.com/secure/attachment/2639906/Video+2025-05-03+16.46.58.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1s8g:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+ Philanthropy page: The space between two paragraphs appears larger than what is specified in the documentation,QATC-921051,3821768,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 1:34 PM,03/May/25 1:34 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Philanthropy page from Connect module
+ # Scroll to the article 
+
+ # Observe the spacing between two consecutive paragraphs - see here [^Screenshot 2025-05-03 160336.png]
+
+*Actual result:* The space between two paragraphs appears larger than what is specified in the documentation
+
+*Expected result:* Paragraphs should maintain a standard and consistent spacing as per the specification provided in the documentation - see here [^Requirement_28.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 1:33 PM;m13.hasan;Requirement_28.png;https://jira.a1qa.com/secure/attachment/2639903/Requirement_28.png","03/May/25 1:32 PM;m13.hasan;Screenshot 2025-05-03 160336.png;https://jira.a1qa.com/secure/attachment/2639904/Screenshot+2025-05-03+160336.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1s80:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Philanthropy page: The word ""Family"" is written as ""Famely"" in the second column of the article",QATC-921046,3821760,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 12:58 PM,03/May/25 12:58 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Philanthropy page from Connect module
+ # Pay attention to the second column of the article - see here [^Screenshot 2025-05-03 155331.png]
+
+*Actual result:* The word ""Family"" is written as ""Famely"" in the second column of the article
+
+*Expected result:* The word should be spelled correctly as ""Family"" to align with proper grammar and the documentation","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 12:57 PM;m13.hasan;Screenshot 2025-05-03 155331.png;https://jira.a1qa.com/secure/attachment/2639896/Screenshot+2025-05-03+155331.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1s68:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+ Philanthropy page: The quotes from two clients are missing from the section below the article,QATC-921043,3821757,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 12:32 PM,03/May/25 12:32 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Philanthropy page from the Connect module
+ # Pay attention to the section below the article [^Screenshot 2025-05-03 152608.png]
+
+{*}Actual result{*}: The quotes from two clients are missing from the section below the article
+
+{*}Expected Result{*}: The page should include two client quotes in the section below the article, as specified in the documentation - see here [^Requirement_27.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 12:31 PM;m13.hasan;Requirement_27.png;https://jira.a1qa.com/secure/attachment/2639891/Requirement_27.png","03/May/25 12:31 PM;m13.hasan;Screenshot 2025-05-03 152608.png;https://jira.a1qa.com/secure/attachment/2639890/Screenshot+2025-05-03+152608.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1s5k:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Philanthropy page: The quotes from two clients are missing from the section below the article,QATC-921042,3821756,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 12:30 PM,03/May/25 12:30 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Philanthropy page from the Connect module
+ # Pay attention to the section below the article [^Screenshot 2025-05-03 152608.png]
+
+{*}Actual result{*}: The quotes from two clients are missing from the section below the article
+
+{*}Expected Result{*}: The page should include two client quotes in the section below the article, as specified in the documentation - see here [^Requirement_27.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 12:30 PM;m13.hasan;Requirement_27.png;https://jira.a1qa.com/secure/attachment/2639888/Requirement_27.png","03/May/25 12:30 PM;m13.hasan;Screenshot 2025-05-03 152608.png;https://jira.a1qa.com/secure/attachment/2639889/Screenshot+2025-05-03+152608.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1s5c:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Philanthropy page: The quotes from two clients are missing from the section below the article,QATC-921041,3821755,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 12:29 PM,03/May/25 12:29 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Philanthropy page from the Connect module
+ # Pay attention to the section below the article [^image-2025-05-03-15-27-16-410.png]
+
+{*}Actual result{*}: The quotes from two clients are missing from the section below the article
+
+{*}Expected Result{*}: The page should include two client quotes in the section below the article, as specified in the documentation - see here [^image-2025-05-03-15-27-16-446.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 12:27 PM;m13.hasan;image-2025-05-03-15-27-16-410.png;https://jira.a1qa.com/secure/attachment/2639887/image-2025-05-03-15-27-16-410.png","03/May/25 12:27 PM;m13.hasan;image-2025-05-03-15-27-16-446.png;https://jira.a1qa.com/secure/attachment/2639886/image-2025-05-03-15-27-16-446.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1s54:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Philanthropy Tab: The word ""Interest"" is written as ""Intirest"" in the second column of the article",QATC-921038,3821752,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 11:49 AM,03/May/25 11:49 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the ** Philanthropy page from Connect module
+ # Pay attention to the second column of the article - see here [^Screenshot 2025-05-03 143710.png]
+
+*Actual result:* The word ""Interest"" is written as ""Intirest"" in the second column of the article
+
+*Expected result:* The word should be spelled correctly as ""interest"" to align with proper grammar and the documentation
+
+ ","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 11:46 AM;m13.hasan;Screenshot 2025-05-03 143710.png;https://jira.a1qa.com/secure/attachment/2639883/Screenshot+2025-05-03+143710.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1s4g:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Philanthropy page: Extra ""../"" appears before image word in two places in the second column, which is not specified in the documentation",QATC-921035,3821749,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 11:33 AM,03/May/25 11:33 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Philanthropy
+ # Pay attention to the second column - see here [^Screenshot 2025-05-03 140742.png]
+
+*Actual result:* Extra ""../"" appears before image word in two places in the second column, which is not specified in the documentation 
+
+*Expected result:* The word ""images"" should appear as normal text without any preceding {{""../"" - see here [^Requirement_26.png]}}","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 11:20 AM;m13.hasan;Requirement_26.png;https://jira.a1qa.com/secure/attachment/2639879/Requirement_26.png","03/May/25 11:20 AM;m13.hasan;Screenshot 2025-05-03 140742.png;https://jira.a1qa.com/secure/attachment/2639880/Screenshot+2025-05-03+140742.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1s3s:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Clients section: Alex Ching photo redirects to Maclaren website link while clicking ,QATC-921006,3821719,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 9:50 AM,03/May/25 9:50 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Clients
+ # Click on the picture or the name of Alex Ching at the 26th position
+ # Observe the content displayed on the page - see here [^Video 2025-05-03 12.44.23.mp4]
+
+*Actual result:* Alex Ching photo redirects to Maclaren website link while clicking, which is [http://www.maclarenbaby.com/], but should not have any link as specified - see here [^Screenshot 2025-05-03 115431.png] & [^Screenshot 2025-05-03 115614.png]
+
+*Expected result:* Clicking Alex Ching should redirect to any website, as it doesn’t have any profile link - see here [^Requirement_25.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"03/May/25 9:41 AM;m13.hasan;Requirement_25.png;https://jira.a1qa.com/secure/attachment/2639846/Requirement_25.png","03/May/25 9:49 AM;m13.hasan;Screenshot 2025-05-03 115431.png;https://jira.a1qa.com/secure/attachment/2639843/Screenshot+2025-05-03+115431.png","03/May/25 9:49 AM;m13.hasan;Screenshot 2025-05-03 115614.png;https://jira.a1qa.com/secure/attachment/2639844/Screenshot+2025-05-03+115614.png","03/May/25 9:46 AM;m13.hasan;Video 2025-05-03 12.44.23.mp4;https://jira.a1qa.com/secure/attachment/2639845/Video+2025-05-03+12.44.23.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1rx4:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Clients section: Photos without profile links still trigger page reload on click,QATC-920974,3821612,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,03/May/25 12:17 AM,03/May/25 12:17 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Clients section from Connect module
+
+ # Click on any client photo that does not have an assigned profile link
+
+ # Pay attention to the response 
+
+*Actual result:* Photos without profile links still trigger page reload on click - see here [^Video 2025-05-03 03.13.06.mp4]
+
+*Expected result:* Photos without profile links should not trigger any action or page reload when clicked - see here [^Requirement_23.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"03/May/25 12:14 AM;m13.hasan;Requirement_23.png;https://jira.a1qa.com/secure/attachment/2639792/Requirement_23.png","03/May/25 12:14 AM;m13.hasan;Video 2025-05-03 03.13.06.mp4;https://jira.a1qa.com/secure/attachment/2639793/Video+2025-05-03+03.13.06.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1r9c:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Clients section: “Laser Performance” and “MAM” customers are not listed on the webpage, while they are specified in the documentation ",QATC-920970,3821607,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 11:19 PM,02/May/25 11:19 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Connect → Clients
+ # Look for “Laser Performance” and “MAM” in the list
+ # Compare the list of displayed customers with the documentation 
+
+*Actual result:* “Laser Performance” and “MAM” customers are not listed on the webpage, while they are specified in the documentation - see here [^Video 2025-05-03 02.17.04.mp4]
+
+*Expected result:* {*}{*}Both “Laser Performance” and “MAM” should be listed in the Clients section as specified in the documentation - see here [^Requirement_20.png] &  [^Requirement_21.png]
+
+ ","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"02/May/25 11:14 PM;m13.hasan;Requirement_20.png;https://jira.a1qa.com/secure/attachment/2639787/Requirement_20.png","02/May/25 11:14 PM;m13.hasan;Requirement_21.png;https://jira.a1qa.com/secure/attachment/2639788/Requirement_21.png","02/May/25 11:18 PM;m13.hasan;Video 2025-05-03 02.17.04.mp4;https://jira.a1qa.com/secure/attachment/2639786/Video+2025-05-03+02.17.04.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1r88:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Clients section: “Yasmine Ghaemi” and “Jennifer Harris” photos appear in each other’s positions,QATC-920966,3821601,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 10:53 PM,02/May/25 10:53 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Clients
+ # Observe the position of Yasmine Ghaemi and Jennifer Harris with the documentation
+
+*Actual result:* “Yasmine Ghaemi” and “Jennifer Harris” photos appear in each other’s positions - see here [^Screenshot 2025-05-03 014623.png]
+
+*Expected result:* Each client’s photo should appear in the exact position as defined in the documentation - see here [^Requirement_19.png]"," ** *OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"02/May/25 10:48 PM;m13.hasan;Requirement_19.png;https://jira.a1qa.com/secure/attachment/2639779/Requirement_19.png","02/May/25 10:48 PM;m13.hasan;Screenshot 2025-05-03 014623.png;https://jira.a1qa.com/secure/attachment/2639780/Screenshot+2025-05-03+014623.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1r74:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Clients section: “Yasmine Ghaemi” and “Jennifer Harris” names appear in each other’s photo,QATC-920962,3821595,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 10:28 PM,02/May/25 10:28 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Connect → Clients
+
+ # Locate the entries for Yasmine Ghaemi and Jennifer Harris at positions 13th and 16th
+ # Compare the client names with the specification 
+
+*Actual result:* “Yasmine Ghaemi” and “Jennifer Harris” names appear in each other’s photo - see here [^Screenshot 2025-05-03 010012.png]
+
+*Expected result:* Each client name should appear in the photo specified in the documentation - see here [^Requirement_17.png] & [^Requirement_18.png]
+
+ ","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"02/May/25 10:26 PM;m13.hasan;Requirement_17.png;https://jira.a1qa.com/secure/attachment/2639771/Requirement_17.png","02/May/25 10:26 PM;m13.hasan;Requirement_18.png;https://jira.a1qa.com/secure/attachment/2639772/Requirement_18.png","02/May/25 10:26 PM;m13.hasan;Screenshot 2025-05-03 010012.png;https://jira.a1qa.com/secure/attachment/2639770/Screenshot+2025-05-03+010012.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1r5s:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Connect section: Client “Emcor” appears at 19th position in the client list rather than 14th position as specified,QATC-920953,3821583,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 9:46 PM,02/May/25 9:54 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Clients
+
+ # Locate the client named Emcor in the list at the 19th position
+
+ # Refer to the requirements to verify its expected position
+
+*Actual result:* Client “Emcor” appears at 19th position in the client list rather than 14th position as specified - see here [^Screenshot 2025-05-03 003510.png]
+
+*Expected result:* According to the documentation, Emcor should be positioned 14th in the client list - see here [^Requirement_16.png]
+
+ ","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"02/May/25 9:44 PM;m13.hasan;Requirement_16.png;https://jira.a1qa.com/secure/attachment/2639760/Requirement_16.png","02/May/25 9:51 PM;m13.hasan;Screenshot 2025-05-03 003510-1.png;https://jira.a1qa.com/secure/attachment/2639763/Screenshot+2025-05-03+003510-1.png","02/May/25 9:45 PM;m13.hasan;Screenshot 2025-05-03 003510.png;https://jira.a1qa.com/secure/attachment/2639759/Screenshot+2025-05-03+003510.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1r34:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,"02/May/25 9:54 PM;m13.hasan;*Screenshot correction:* In the actual result section, see the correct one  !Screenshot 2025-05-03 003510-1.png|thumbnail!;;;",
+Clients section: Only 28 customer profiles displayed instead of 30 as specified,QATC-920944,3821566,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 8:33 PM,02/May/25 8:33 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Connect → Clients
+
+ # Observe the list of customer profiles displayed
+
+ # Compare with the specification, which lists 30 customers
+
+*Actual result:* 28 customer profiles displayed instead of 30 as specified - see here [^Screenshot 2025-05-02 233053.png]
+
+*Expected result:* The Clients page should display ** 30 customer profiles as outlined in the documentation - see here [^Video 2025-05-02 23.28.55.mp4]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"02/May/25 8:33 PM;m13.hasan;Screenshot 2025-05-02 233053.png;https://jira.a1qa.com/secure/attachment/2639744/Screenshot+2025-05-02+233053.png","02/May/25 8:30 PM;m13.hasan;Video 2025-05-02 23.28.55.mp4;https://jira.a1qa.com/secure/attachment/2639745/Video+2025-05-02+23.28.55.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1qzc:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Connect section: Caleb Colpitts profile redirects to Kate Cleaves' website link when clicking the picture,QATC-920911,3821389,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 3:04 PM,02/May/25 3:04 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Clients
+
+ # Click on the picture or the name of Caleb Colpitts at the 10th position
+
+ # Observe the content displayed on the page - see here [^Video 2025-05-02 17.41.05.mp4]
+
+*Actual result:* Caleb Colpitts profile redirects to Kate Cleaves' website link that is [http://www.katecleaves.com|http://www.katecleaves.com/] when clicking the picture - see here [^Screenshot 2025-05-02 165657.png]
+
+*Expected result:* Clicking Caleb Colpitts should redirect to [http://calebcolpitts.com/] as mentioned in the specification - see here [^Requirement_15.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"02/May/25 3:02 PM;m13.hasan;Requirement_15.png;https://jira.a1qa.com/secure/attachment/2639643/Requirement_15.png","02/May/25 3:02 PM;m13.hasan;Screenshot 2025-05-02 165657.png;https://jira.a1qa.com/secure/attachment/2639642/Screenshot+2025-05-02+165657.png","02/May/25 3:02 PM;m13.hasan;Video 2025-05-02 17.41.05.mp4;https://jira.a1qa.com/secure/attachment/2639644/Video+2025-05-02+17.41.05.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1pww:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Connect section: Client “Alex Ching” appears at 26th position in the client list rather than 10th position as specified,QATC-920909,3821373,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 2:26 PM,02/May/25 2:26 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Clients
+
+ # Locate the client named Alex Ching in the list
+
+ # Refer to the requirements to verify its expected position
+
+*Actual result:* Client “Alex Ching” appears at 26th position in the client list rather than 10th position as specified - see here [^Screenshot 2025-05-02 171851.png]
+
+*Expected result:* According to the documentation, Alex Ching should be positioned at 10th in the client list - see here [^Requirement_14.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"02/May/25 2:25 PM;m13.hasan;Requirement_14.png;https://jira.a1qa.com/secure/attachment/2639622/Requirement_14.png","02/May/25 2:25 PM;m13.hasan;Screenshot 2025-05-02 171851.png;https://jira.a1qa.com/secure/attachment/2639623/Screenshot+2025-05-02+171851.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1pts:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Connect section: Client “Max & Tara Axler” appears at 12th position in the client list rather than 3rd position as specified,QATC-920907,3821368,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 2:14 PM,02/May/25 2:28 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Clients
+
+ # Locate the client named Alex Ching in the list
+
+ # Refer to the requirements to verify its expected position
+
+*Actual result:* Client “Max & Tara Axler” appears at 12th position in the client list rather than 3rd position as specified - see here [^Screenshot 2025-05-02 171222.png]
+
+*Expected result:* According to the documentation, Max & Tara Axle should be positioned at 3rd in the client list - see here [^Requirement_13.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"02/May/25 2:11 PM;m13.hasan;Requirement_13.png;https://jira.a1qa.com/secure/attachment/2639620/Requirement_13.png","02/May/25 2:13 PM;m13.hasan;Screenshot 2025-05-02 171222.png;https://jira.a1qa.com/secure/attachment/2639619/Screenshot+2025-05-02+171222.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1pso:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,"02/May/25 2:28 PM;m13.hasan;*Correction*
+*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Clients
+
+ # Locate the client named *Max & Tara Axler in the list at position 12th*
+
+ # Refer to the requirements to verify its expected position;;;",
+Connect section: “Bio & Press” page missing information about Greg’s life and press articles,QATC-920898,3821344,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 1:31 PM,02/May/25 1:31 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Connect → Bio & Press
+
+ # Observe the content displayed on the page - see here [^Screenshot 2025-05-02 162632.png]
+
+*Actual result:* “Bio & Press” page missing information about Greg’s life and press articles
+
+*Expected result:* The “Bio & Press” page should contain details about Greg’s life and his articles in the press, as specified in the documentation - see here [^Screenshot 2025-05-02 162632.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"02/May/25 1:28 PM;m13.hasan;Requirement_12.png;https://jira.a1qa.com/secure/attachment/2639598/Requirement_12.png","02/May/25 1:27 PM;m13.hasan;Screenshot 2025-05-02 162632.png;https://jira.a1qa.com/secure/attachment/2639599/Screenshot+2025-05-02+162632.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1pnc:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Portrait gallery: Image positions swapped on page 3 compared to the documentation,QATC-920834,3821163,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 3:01 AM,02/May/25 3:01 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Work tab
+
+ # Click on Portrait to open the Portrait Gallery
+
+ # Go to Page 3 of the gallery
+
+ # Compare the image sequence with the provided documentation 
+
+*Actual result:* Image positions swapped on page 3 compared to the documentation - see here [^Screenshot 2025-05-02 054839.png]
+
+*Expected result:* All images should appear in the correct sequence and position as specified in the documentation - see here [^Requirement_11.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"02/May/25 3:00 AM;m13.hasan;Requirement_11.png;https://jira.a1qa.com/secure/attachment/2639448/Requirement_11.png","02/May/25 3:00 AM;m13.hasan;Screenshot 2025-05-02 054839.png;https://jira.a1qa.com/secure/attachment/2639449/Screenshot+2025-05-02+054839.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1ojk:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Gallery preview: Page enters an unlimited loading state after clicking multiple times on a preview photo,QATC-920823,3821150,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 1:38 AM,02/May/25 1:38 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the “Work” tab and open any gallery (e.g., Portrait, Lifestyle)
+
+ # Click on a preview photo to open it in full view
+
+ # Repeatedly click the same preview photo multiple times in quick succession
+
+ # Observe the application’s response - see here [^Video 2025-05-01 20.55.31.mp4]
+
+*Actual result:* The page enters an unlimited loading state after clicking multiple times on a preview photo, and the user cannot interact with it unless a manual refresh is performed
+
+*Expected result:* Clicking on a preview photo should open it once. Repeated clicks should not freeze or break the page, and the gallery should remain fully functional","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"02/May/25 1:30 AM;m13.hasan;Video 2025-05-01 20.55.31.mp4;https://jira.a1qa.com/secure/attachment/2639425/Video+2025-05-01+20.55.31.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1oh4:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Lifestyle gallery (Page 5): Preview photo view missing tooltip and expected interaction behavior while viewing,QATC-920814,3821139,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,02/May/25 12:46 AM,02/May/25 12:46 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Work → Lifestyle
+
+ # Go to Page 5 of the gallery
+
+ # Click on any preview photo
+
+*Actual result:* Preview photo view missing tooltip and expected interaction behavior at page 5 while viewing - see here [^Video 2025-05-02 01.55.43.mp4]
+
+*Expected result:* All preview photos should display a tooltip with the photo number, and clicking should open a clear, interactive preview area showing all photos from the current page - see here [^Screenshot 2025-05-02 034359.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"02/May/25 12:45 AM;m13.hasan;Screenshot 2025-05-02 034359.png;https://jira.a1qa.com/secure/attachment/2639410/Screenshot+2025-05-02+034359.png","02/May/25 12:42 AM;m13.hasan;Video 2025-05-02 01.55.43.mp4;https://jira.a1qa.com/secure/attachment/2639411/Video+2025-05-02+01.55.43.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1oeo:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Lifestyle gallery: Image 7 on page 5 fails to load and shows an error pop-up when trying to open ,QATC-920785,3821108,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 10:21 PM,01/May/25 10:21 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Work → Lifestyle Gallery  
+
+ # Go to page 5 
+
+ # Click on image 7 
+
+*Actual result:* Image 7 on page 5 fails to load and shows an error pop-up when trying to open - see here [^Screenshot 2025-05-02 003347.png]
+
+*Expected result:* Image 7 should open in preview without error and display correctly","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 10:19 PM;m13.hasan;Screenshot 2025-05-02 003347.png;https://jira.a1qa.com/secure/attachment/2639375/Screenshot+2025-05-02+003347.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1o7s:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Gallery Preview: A cross button appears in the bottom-right corner, and back/next buttons appear in the center of the screen; those are not specified while hovering",QATC-920716,3821021,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 5:44 PM,01/May/25 5:55 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to Work → Open any gallery
+
+ # Click on an image to open the preview
+
+ # Observe the cross, back, and next buttons - see here [^Screenshot 2025-05-01 195602.png], [^Screenshot 2025-05-01 202508.png], [^Screenshot 2025-05-01 203709.png]
+
+*Actual result:* A cross button appears in the bottom-right corner, and back/next buttons appear in the center of the screen; those are not specified while hovering - see here [^Video 2025-05-01 20.37.44.mp4]
+
+*Expected result:* Only buttons mentioned in the specification should be present, and their positions should follow the documented layout - see here [^Requirement_9.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 5:47 PM;m13.hasan;Requirement_9.1.png;https://jira.a1qa.com/secure/attachment/2639267/Requirement_9.1.png","01/May/25 5:42 PM;m13.hasan;Requirement_9.png;https://jira.a1qa.com/secure/attachment/2639262/Requirement_9.png","01/May/25 5:38 PM;m13.hasan;Screenshot 2025-05-01 195602.png;https://jira.a1qa.com/secure/attachment/2639263/Screenshot+2025-05-01+195602.png","01/May/25 5:36 PM;m13.hasan;Screenshot 2025-05-01 202508.png;https://jira.a1qa.com/secure/attachment/2639266/Screenshot+2025-05-01+202508.png","01/May/25 5:38 PM;m13.hasan;Screenshot 2025-05-01 203709.png;https://jira.a1qa.com/secure/attachment/2639264/Screenshot+2025-05-01+203709.png","01/May/25 5:38 PM;m13.hasan;Video 2025-05-01 20.37.44.mp4;https://jira.a1qa.com/secure/attachment/2639265/Video+2025-05-01+20.37.44.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1np4:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,"01/May/25 5:48 PM;m13.hasan;The correct label has been attached - see here  !Requirement_9.1.png|thumbnail!;;;","01/May/25 5:55 PM;m13.hasan;*Additional information:* This issue is present across all gallery sections throughout the website;;;"
+Image Preview: The labels of the Back and Next buttons are not clear while hovering,QATC-920706,3821010,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 5:23 PM,01/May/25 5:23 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Go to Work → Open any gallery (e.g., Portrait)
+
+ # Click on a photo to open the preview modal
+
+ # Observe the Back and Next buttons 
+
+*Actual result:* Image Preview: The labels of the Back and Next buttons are not clear while hovering - see here [^Video 2025-05-01 19.56.47.mp4] and [^Screenshot 2025-05-01 195602.png]
+
+*Expected result:* The Back and Next buttons should have clear labels to indicate navigation direction effectively
+
+*Additional information:* This issue is present across all gallery sections throughout the website","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 5:07 PM;m13.hasan;Screenshot 2025-05-01 195602.png;https://jira.a1qa.com/secure/attachment/2639248/Screenshot+2025-05-01+195602.png","01/May/25 5:07 PM;m13.hasan;Video 2025-05-01 19.56.47.mp4;https://jira.a1qa.com/secure/attachment/2639247/Video+2025-05-01+19.56.47.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1nmo:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Portrait gallery: “Next” button navigates incorrectly from page 3 to page 2 instead of page 4,QATC-920689,3820983,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 4:44 PM,01/May/25 4:45 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Hover over Work → Click on Portrait Gallery
+
+ # Navigate to page 3 using the pagination buttons
+
+ # Click the Next button
+
+*Actual result:* “Next” button navigates incorrectly from page 3 to page 2 instead of page 4 - see here [^Video 2025-05-01 19.40.09.mp4] 
+
+*Expected result:* Clicking Next on page 3 should take the user to page 4","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 4:42 PM;m13.hasan;Video 2025-05-01 19.40.09.mp4;https://jira.a1qa.com/secure/attachment/2639218/Video+2025-05-01+19.40.09.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1ngo:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,"01/May/25 4:45 PM;m13.hasan;*Correction of the Title:* Portrait gallery: “Next” button navigates from page 3 to page 2 instead of page 4;;;",
+Work submenu: Gallery image sizes do not match specified dimensions,QATC-920684,3820976,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 4:26 PM,01/May/25 4:28 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Hover over the Work tab and open each gallery (Portrait, Lifestyle, Travel, Motion)
+
+ # Inspect the images inside the galleries, and the Images are rendered at 224.6px × 129.6px - see here [^Recording 2025-05-01 192301.mp4]
+
+*Actual result:* Gallery image sizes do not match the specified dimensions - see here [^Screenshot 2025-05-01 185958.png]
+
+*Expected result:* Each gallery image should be exactly 225px × 130px as specified - see here [^Requirement_8.0.png], [^Requirement_8.1.png] and [Requirement_8.2.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 4:24 PM;m13.hasan;Recording 2025-05-01 192301.mp4;https://jira.a1qa.com/secure/attachment/2639210/Recording+2025-05-01+192301.mp4","01/May/25 4:24 PM;m13.hasan;Requirement_8.0.png;https://jira.a1qa.com/secure/attachment/2639209/Requirement_8.0.png","01/May/25 4:24 PM;m13.hasan;Requirement_8.1.png;https://jira.a1qa.com/secure/attachment/2639208/Requirement_8.1.png","01/May/25 4:24 PM;m13.hasan;Requirement_8.2.png;https://jira.a1qa.com/secure/attachment/2639207/Requirement_8.2.png","01/May/25 4:25 PM;m13.hasan;Screenshot 2025-05-01 185958.png;https://jira.a1qa.com/secure/attachment/2639206/Screenshot+2025-05-01+185958.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1nf4:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,"01/May/25 4:28 PM;m13.hasan;See here the last snapshot of the expected result [^Requirement_8.2.png];;;",
+Page Title: It is displayed in all capital letters instead of proper title case as specified,QATC-920678,3820968,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 3:39 PM,01/May/25 3:39 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Observe the page titles displayed at the top
+
+ # Notice that all page titles appear in ALL CAPS instead of following proper title case formatting - see here [^Video 2025-05-01 18.38.08.mp4]
+
+*Actual result:* It is displayed in all capital letters instead of proper title case as specified
+
+*Expected result:* Page titles should be formatted using Title Case (e.g., Portrait Gallery instead of PORTRAIT GALLERY) - see here [^Requirement_7.png], [^Requirement_7.1.png], [^Requirement_7.2.png]
+
+*Additional information:* This issue is present all over the pages in every section","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 3:36 PM;m13.hasan;Requirement_7.1.png;https://jira.a1qa.com/secure/attachment/2639194/Requirement_7.1.png","01/May/25 3:37 PM;m13.hasan;Requirement_7.2.png;https://jira.a1qa.com/secure/attachment/2639193/Requirement_7.2.png","01/May/25 3:35 PM;m13.hasan;Requirement_7.png;https://jira.a1qa.com/secure/attachment/2639195/Requirement_7.png","01/May/25 3:39 PM;m13.hasan;Video 2025-05-01 18.38.08.mp4;https://jira.a1qa.com/secure/attachment/2639192/Video+2025-05-01+18.38.08.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1ndc:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Home page: Does not navigate to the corresponding gallery when clicking the preview photos,QATC-920629,3820849,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 12:10 PM,01/May/25 12:10 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Scroll to the Demo section on the Home page
+
+ # Click on any of the preview images - see here [^Video 2025-05-01 15.06.19.mp4]
+
+*Actual result:* In home page does not navigate to the corresponding gallery when clicking the preview photos
+
+*Expected result:* Clicking a preview photo should better to redirect to the corresponding gallery page (e.g., Portrait Gallery, Lifestyle Gallery, etc.) - see here [^Requirement_6.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 12:09 PM;m13.hasan;Requirement_6.png;https://jira.a1qa.com/secure/attachment/2639105/Requirement_6.png","01/May/25 12:08 PM;m13.hasan;Video 2025-05-01 15.06.19.mp4;https://jira.a1qa.com/secure/attachment/2639106/Video+2025-05-01+15.06.19.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1mnk:",9223372036854775807,,,,,,,,,5-Enhancement,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Connect Tab: Clicking the Contact Menu causes the sessions tab to disappear,QATC-920610,3820805,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 9:44 AM,01/May/25 9:44 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:* 
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the Connect tab{*}{*} 
+ # Click on the Contact menu option from dropdown
+
+ # Observe that the Sessions tab is no longer visible or accessible - see here [^Video 2025-05-01 12.24.30.mp4]
+** 
+
+*Actual result:* Connect Tab: Clicking the Contact Menu causes the sessions tab to disappear
+
+*Expected result:* Clicking the Contact menu should not affect the visibility of other tabs, including the Sessions tab
+
+**","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 9:42 AM;m13.hasan;Video 2025-05-01 12.24.30.mp4;https://jira.a1qa.com/secure/attachment/2639052/Video+2025-05-01+12.24.30.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1me0:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Work Tab: 'Motion' Submenu is not accessible from the menu dropdown,QATC-920605,3820798,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 9:21 AM,01/May/25 9:21 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Navigate to the work tab 
+ # From the dropdown try to access the Motion tab
+ # Pay attention to the response - see here [^Video 2025-05-01 12.19.16.mp4]
+
+*Actual result:* 'Motion' Submenu is not accessible from the menu dropdown
+
+*Expected result:* Clicking on ""Motion"" should navigate to the corresponding gallery ","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"01/May/25 9:20 AM;m13.hasan;Video 2025-05-01 12.19.16.mp4;https://jira.a1qa.com/secure/attachment/2639042/Video+2025-05-01+12.19.16.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1mcg:",9223372036854775807,,,,,,,,,1-Critical,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Responsive UI: Page elements do not adjust correctly on zoom, causing content to disappear at 175%",QATC-920602,3820794,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 9:01 AM,01/May/25 9:01 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Navigate to the application: [https://photostudio.demohoster.com/] 
+
+ # Increase the browser zoom level to 175%
+
+ # Observe the layout and positioning of the UI elements - see here [^Recording 2025-05-01 115911.mp4]
+
+*Actual result:* Page elements do not adjust correctly on zoom, causing content to disappear at 175%
+
+*Expected result:* All UI elements should responsively adjust their positions and sizes according to the zoom level, ensuring no content overlaps, disappears, or becomes inaccessible","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 9:01 AM;m13.hasan;Recording 2025-05-01 115911.mp4;https://jira.a1qa.com/secure/attachment/2639035/Recording+2025-05-01+115911.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1mbk:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Work section: “Gallery” label missing in dropdown menu items as specified in documentation,QATC-920598,3820786,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 8:35 AM,01/May/25 8:35 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:* 
+ # Navigate to the application: [https://photostudio.demohoster.com/]
+ # Click on the Work tab from the top navigation
+
+ # Observe the contents of the page - see here [^Screenshot 2025-05-01 111805.png]
+
+*Actual result:* “Gallery” label missing in dropdown menu items as specified in documentation
+
+*Expected result:* Each dropdown menu item should include the word “Gallery” as per the specification: see here [^Requirement_5.png]
+ * Portrait Gallery
+
+ * Lifestyle Gallery
+
+ * Travel Gallery
+
+ * Motion Gallery","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 8:33 AM;m13.hasan;Requirement_5.png;https://jira.a1qa.com/secure/attachment/2639028/Requirement_5.png","01/May/25 8:33 AM;m13.hasan;Screenshot 2025-05-01 111805.png;https://jira.a1qa.com/secure/attachment/2639029/Screenshot+2025-05-01+111805.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1m9s:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Search functionality: The page reloads briefly, but no output or feedback is presented to the user when searching ",QATC-920596,3820679,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 8:12 AM,01/May/25 8:12 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:* 
+ # Navigate to [https://photostudio.demohoster.com/]
+
+ # Locate the search bar at the top-right corner
+
+ # Enter any valid keyword (e.g., ""session"", ""work"", ""Gregory"")
+
+ # Press Enter or click the Search button
+
+*Actual result:* The page reloads briefly, but no output or feedback is presented to the user when searching - see here [^Video 2025-05-01 11.06.08.mp4]
+
+*Expected result:* The search functionality should retrieve and display relevant results ","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 8:07 AM;m13.hasan;Video 2025-05-01 11.06.08.mp4;https://jira.a1qa.com/secure/attachment/2639024/Video+2025-05-01+11.06.08.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1lm0:",9223372036854775807,,,,,,,,,2-Major,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Footer section: Twitter URL contains ""www"" prefix that differs from the specification",QATC-920585,3820668,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 3:40 AM,01/May/25 3:40 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Scroll down to the footer section
+
+ # Observe the Twitter link displayed as: www.twitter.com/ph_olsen
+
+ # Compare it with the project specification, where the expected format is: twitter.com/ph_olsen (without the ""www"" prefix) - see here [^Screenshot 2025-05-01 061935-1.png]
+
+*Actual result:* Twitter URL contains ""www"" prefix that differs from the specification
+
+*Expected result:* Twitter URL should be consistent as specified in the documentation - see here [^Requirement_4-2.png]
+
+ ","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85
+
+ ",,,,,,,,,,Leads and Reporter only,"01/May/25 3:39 AM;m13.hasan;Requirement_4-2.png;https://jira.a1qa.com/secure/attachment/2639007/Requirement_4-2.png","01/May/25 3:38 AM;m13.hasan;Screenshot 2025-05-01 061935-1.png;https://jira.a1qa.com/secure/attachment/2639008/Screenshot+2025-05-01+061935-1.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1ljk:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Search field: Accepts more than 300 characters without giving any validation message while searching,QATC-920581,3820662,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 2:39 AM,01/May/25 2:39 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Locate the search bar in the top navigation menu
+
+ # Input more than 300 characters (e.g., paste a long string of random text)
+
+ # Observe the field behavior
+
+*Actual result:* Accepts more than 300 characters without giving any validation message while searching - see here [^Video 2025-05-01 05.19.06.mp4]
+
+*Expected result:* The search field should restrict input to 300 characters, preventing excessive entry beyond the defined limit","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 2:39 AM;m13.hasan;Video 2025-05-01 05.19.06.mp4;https://jira.a1qa.com/secure/attachment/2639001/Video+2025-05-01+05.19.06.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1li8:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Search field: Accepts special characters, despite English letters and numbers, while searching",QATC-920578,3820659,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,01/May/25 2:23 AM,01/May/25 2:29 AM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:* 
+ # Open the application: [https://photostudio.demohoster.com/]
+ # Locate the search bar in the top navigation menu
+
+ # Enter a string containing special characters (e.g., %&@^(!#{{{}){}}}
+
+ # Observe the behavior, is it giving any validation message or not{*}{*}
+
+*Actual result:* Accepts special characters, despite English letters and numbers, while searching - see here [^Video 2025-05-01 05.19.06.mp4]
+
+*Expected result:* The search field should only accept English letters and numbers, per the defined criteria","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"01/May/25 2:21 AM;m13.hasan;Video 2025-05-01 05.19.06.mp4;https://jira.a1qa.com/secure/attachment/2638997/Video+2025-05-01+05.19.06.mp4","01/May/25 2:28 AM;m13.hasan;Video 2025-05-01 05.27.45.mp4;https://jira.a1qa.com/secure/attachment/2638999/Video+2025-05-01+05.27.45.mp4",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,Functional,,,,,,,,,,,,,,,,,,,,,,,,"0|if1lhk:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,"01/May/25 2:29 AM;m13.hasan;Mistakenly, a wrong attachment has been included.
+The corrected one: see here [^Video 2025-05-01 05.27.45.mp4];;;",
+Navigation menu: “Connect” and “Sessions” positions do not follow the documented sequence,QATC-920544,3820614,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,30/Apr/25 10:01 PM,30/Apr/25 10:01 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: [https://photostudio.demohoster.com/]
+ # locate the ** navigation menu at the top
+
+ # Check the sequence of the menu items - see here [^Screenshot 2025-05-01 004633.png]
+
+*Actual result:* “Connect” and “Sessions” positions do not follow the documented sequence
+
+*Expected result:* Navigation menu should follow the order:
+Home → Work → Connect → Sessions → Instaolsen - see here [^Requirement_3.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"30/Apr/25 10:01 PM;m13.hasan;Requirement_3.png;https://jira.a1qa.com/secure/attachment/2638949/Requirement_3.png","30/Apr/25 10:01 PM;m13.hasan;Screenshot 2025-05-01 004633.png;https://jira.a1qa.com/secure/attachment/2638948/Screenshot+2025-05-01+004633.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1l7k:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+Footer section: The last two digits of the mobile number are different from the documentation,QATC-920530,3820582,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,30/Apr/25 9:09 PM,30/Apr/25 9:09 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the application: https://photostudio.demohoster.com/
+
+ # Scroll to the Footer section
+
+ # Observe the mobile phone number displayed
+
+ # Compare it with the mobile number mentioned in the project documentation - see here [^Screenshot 2025-04-30 231155.png]
+
+*Actual result:* The last two digits of the mobile number are different from the documentation
+
+*Expected result:* The mobile number in the footer should exactly match the number specified in the documentation - see here [^Requirement_2.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"30/Apr/25 9:02 PM;m13.hasan;Requirement_2.png;https://jira.a1qa.com/secure/attachment/2638921/Requirement_2.png","30/Apr/25 9:02 PM;m13.hasan;Screenshot 2025-04-30 231155.png;https://jira.a1qa.com/secure/attachment/2638922/Screenshot+2025-04-30+231155.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1l0g:",9223372036854775807,,,,,,,,,3-Average,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
+"Header Section: In home icon camera logo is specified in the documentation, but is missing from the website",QATC-920526,3820563,Bug,Open,QATC,Training Center,software,a.golubovich,,,Major,,,m13.hasan,m13.hasan,30/Apr/25 7:45 PM,30/Apr/25 7:45 PM,14/Jun/25 2:46 PM,,1.0,,GregOlsen.PhotoStudio,,0,,"*Steps:*
+ # Open the Application: [https://photostudio.demohoster.com/]
+ # Navigate to the header section
+
+ # Observe that the camera logo, which is present with Gregory Olsen name in the documentation, does it showing in the actual website - see here [^Screenshot 2025-04-30 224139.png]
+
+*Actual result:* In home icon camera logo is specified in the documentation, but is missing from the website
+
+*Expected result:* The header should include the camera logo as specified in the documentation, maintaining design consistency - see here [^Requirement_1.png]","*OS:* Windows 11 Home 64-bit
+
+*Browser:* Google Chrome Version 135.0.7049.85",,,,,,,,,,Leads and Reporter only,"30/Apr/25 7:39 PM;m13.hasan;Requirement_1.png;https://jira.a1qa.com/secure/attachment/2638912/Requirement_1.png","30/Apr/25 7:43 PM;m13.hasan;Screenshot 2025-04-30 224139.png;https://jira.a1qa.com/secure/attachment/2638911/Screenshot+2025-04-30+224139.png",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,All,,,,,,,,,,,,,,,GUI,,,,,,,,,,,,,,,,,,,,,,,,"0|if1kwo:",9223372036854775807,,,,,,,,,4-Minor,,,,,,,,,,,,,,,,,,,,0.0,,,,,,
